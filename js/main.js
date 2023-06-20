@@ -43,12 +43,12 @@
  /*  02. Header Dropdown
  /*----------------------------------------*/
  	// Li's Dropdown Menu
- 	$('.ht-setting-trigger, .ht-currency-trigger, .ht-language-trigger, .hm-minicart-trigger, .cw-sub-menu').on('click', function (e) {
- 		e.preventDefault();
- 		$(this).toggleClass('is-active');
- 		$(this).siblings('.ht-setting, .ht-currency, .ht-language, .minicart, .cw-sub-menu li').slideToggle();
- 	});
- 	$('.ht-setting-trigger.is-active').siblings('.catmenu-body').slideDown();
+ 	// $('.ht-setting-trigger, .ht-currency-trigger, .ht-language-trigger, .hm-minicart-trigger, .cw-sub-menu').on('click', function (e) {
+ 	// 	e.preventDefault();
+ 	// 	$(this).toggleClass('is-active');
+ 	// 	$(this).siblings('.ht-setting, .ht-currency, .ht-language, .minicart, .cw-sub-menu li').slideToggle();
+ 	// });
+ 	// $('.ht-setting-trigger.is-active').siblings('.catmenu-body').slideDown();
 /*----------------------------------------*/
 /* 03. Li's Sticky Menu Activation
 /*----------------------------------------*/
@@ -178,7 +178,7 @@
 	function categorySubMenuToggle() {
 	    var screenSize = $(window).width();
 	    if ( screenSize <= 991) {
-	        $('#cate-toggle .right-menu > a').prepend('<i class="expand menu-expand"></i>');
+	        $('#cate-toggle .right-menu > a').prepend('<i class="fa fa-chevron-down"></i>');
 	        $('.category-menu .right-menu ul').slideUp();
 	    //    $('.category-menu .menu-item-has-children i').on('click', function(e){
 	    //        e.preventDefault();

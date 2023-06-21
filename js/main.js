@@ -478,32 +478,32 @@
 /*----------------------------------------*/
 /* 23. Single Prduct Carousel Activision
 /*----------------------------------------*/
- 	$(".sp-carousel-active").owlCarousel({
- 		loop: true,
- 		nav: false,
- 		dots: false,
- 		autoplay: false,
- 		autoplayTimeout: 5000,
- 		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-left"></i>'],
- 		item: 4,
- 		responsive: {
- 			0: {
- 					items: 1
- 			},
- 			480: {
- 					items: 2
- 			},
- 			768: {
- 					items: 2
- 			},
- 			992: {
- 					items: 3
- 			},
- 			1200: {
- 					items: 4
- 			}
- 		}
- 	});
+ 	// $(".sp-carousel-active").owlCarousel({
+ 	// 	loop: true,
+ 	// 	nav: false,
+ 	// 	dots: false,
+ 	// 	autoplay: false,
+ 	// 	autoplayTimeout: 5000,
+ 	// 	navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-left"></i>'],
+ 	// 	item: 4,
+ 	// 	responsive: {
+ 	// 		0: {
+ 	// 				items: 1
+ 	// 		},
+ 	// 		480: {
+ 	// 				items: 2
+ 	// 		},
+ 	// 		768: {
+ 	// 				items: 2
+ 	// 		},
+ 	// 		992: {
+ 	// 				items: 3
+ 	// 		},
+ 	// 		1200: {
+ 	// 				items: 4
+ 	// 		}
+ 	// 	}
+ 	// });
 /*----------------------------------------*/
 /* 24. Star Rating Js
 /*----------------------------------------*/
